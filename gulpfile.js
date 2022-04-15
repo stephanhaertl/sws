@@ -13,9 +13,9 @@ const { src, series, parallel, dest, watch } = require('gulp');
 
 const jsPath = 'assets/js/**/*.js';
 const cssPath = 'assets/css/**/*.css';
-const fontPath = 'assets/fonts';
+const fontPath = 'assets/vendor/bootstrap-icons/fonts';
 
-var vendorCSS = [
+var vendorCSS = [  
   'assets/vendor/bootstrap/css/bootstrap.min.css',
   'assets/vendor/bootstrap-icons/bootstrap-icons.css',
   'assets/vendor/aos/aos.css',

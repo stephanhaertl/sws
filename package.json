@@ -27,5 +27,8 @@
     "gulp": "gulp",
     "js:check": "standard 'js/**/*.js'",
     "js:fix": "standard -fix"
+  },
+  "dependencies": {
+    "npm": "^8.7.0"
   }
 }

@@ -1,1 +1,34 @@
 Title: Home
+
+----
+
+Image:
+
+- hero-carousel-3.svg
+
+----
+
+Text:
+
+## Welcome to <span>SWS Test</span>
+Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.
+
+----
+
+Metatitle: Arbeitsprobe
+
+----
+
+Metakeywords: SWS Test
+
+----
+
+Metadescription: SWS Test
+
+----
+
+Ogimage: 
+
+----
+
+Excludefromxmlsitemap: false
