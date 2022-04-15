@@ -1,2 +1,105 @@
-preset: pages
-unlisted: true
+title: Site
+
+tabs:
+  content:
+    label: Seiten
+    icon: dashboard
+    columns:
+        - width: 1/1
+          sections:
+            mainsites:
+              layout: cardlets
+              headline: Hauptseiten
+              type: pages
+              info: "{{ page.IntroText }}"
+              image: falsese
+              status: listed
+
+            unlisted:
+              layout: cardlets
+              headline: Nicht veränderbare Seiten
+              type: pages
+              info: "{{ page.IntroText }}"
+              image: falsese
+              status: unlisted
+
+            draft:
+              layout: cardlets
+              headline: Entwürfe
+              type: pages
+              info: "{{ page.IntroText }}"
+              image: falsese
+              status: draft
+              create:
+                - default
+
+  generalsettings:
+    label: Seite & Footer Einstellungen
+    icon: globe
+    columns:
+      - width: 3/4
+        sections:
+          content:
+            type: fields
+            fields:
+              pageSettings:
+                label: Header Einstellungen
+                type: headline
+              logo:
+                label: Logo
+                type: files
+                template: Default
+                layout: cards
+                template: blocks/Default
+                info: "{{ file.dimensions }}"
+                image:
+                  ratio: 16/9
+                  cover: true
+                size: large
+                required: true
+                multiple: false
+                width: 1/3
+              gaplogo:
+                type: gap
+                width: 2/3
+
+              globalEmail:
+                type: text
+                label: E-Mail (Kontaktformular)
+
+              customerSettings:
+                label: Kontakt Einstellungen
+                type: headline
+              contact:
+                label: Kontakt
+                type: textarea
+
+              footerSettings:
+                label: Footer Einstellungen
+                type: headline
+              footer_links:
+                label: statische Links
+                type: structure
+                style: table
+                fields:
+                  footer_link_text:
+                    label: Linktext
+                    type: text
+                  footer_link:
+                    label: Link
+                    type: text
+                  footer_new_page:
+                    type: toggle
+                    label: auf Seite bleiben
+                    default: Ja
+                    text:
+                       - Ja
+                       - Nein
+
+            
+
+      - width: 1/4
+        sections:
+          files:
+            headline: Dateien
+            type: files

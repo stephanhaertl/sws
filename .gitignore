@@ -48,3 +48,11 @@ Icon
 # ---------------
 
 /site/config/.license
+
+# GULP
+# ---------------
+dist
+dist/**/*
+
+node_modules
+node_modules/**/*

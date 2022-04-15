@@ -1,0 +1,43 @@
+type: group
+fields:
+  seoSettings:
+    label: SEO Meta Einstellungen
+    type: headline
+
+  metatitle:
+    label: Meta Titel (maximal 60 Zeichen)
+    type: text
+    help: hier den SEO Titel eingeben
+    width: 1/1
+
+  metakeywords:
+    label: Meta Keywords (kommagetrennt)
+    type: textarea
+    help: hier die SEO Keywords eingeben
+    width: 1/2
+
+  metadescription:
+    label: Meta Beschreibung (maximal 150-160 Zeichen)
+    type: textarea
+    help: hier die SEO Description eingeben
+    width: 1/2
+
+  metaSettings:
+    label: Meta Einstellungen
+    type: headline
+  ogImageInfo:
+    label: og:image Information
+    type: info
+    text: Die am häufigsten empfohlene Auflösung für ein OG-Bild beträgt 1200 x 630 Pixel (Verhältnis 1,91 / 1). Bei dieser Größe ist Ihr Miniaturbild groß und hebt sich von der Masse ab.
+  ogImage:
+    label: og:image
+    type: files
+    multiple: false
+
+  excludefromxmlsitemap:
+    label:     Exclude from sitemap.xml
+    type:      toggle
+    default:   off
+    text:
+      - include implicitly
+      - explicitly exclude
