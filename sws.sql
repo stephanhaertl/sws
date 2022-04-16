@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Apr 16, 2022 at 06:49 PM
+-- Generation Time: Apr 16, 2022 at 07:01 PM
 -- Server version: 5.7.34
 -- PHP Version: 8.0.8
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `sws`
 --
+CREATE DATABASE IF NOT EXISTS `sws` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `sws`;
 
 -- --------------------------------------------------------
 
