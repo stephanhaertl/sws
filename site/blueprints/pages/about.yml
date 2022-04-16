@@ -16,15 +16,7 @@ tabs:
           content:
             type: fields
             fields:
-              image:
-                type: files
-                label: Teaser
-                layout: cards
-                width: 1/3
-              text:
-                label: Text
-                type: textarea
-                width: 2/3
+
       # sidebar
       right:
         width: 1/3
@@ -34,15 +26,7 @@ tabs:
             headline: Dateien
             type: files
 
-          subpages:
-            headline: Unterseiten
-            type: pages
-            showStatus: true
-            showActions: true
-            limit: 25
-            create:
-              - subpage
-              - einrichtungen
+
 
 
   # seo tab

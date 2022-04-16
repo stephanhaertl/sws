@@ -48,7 +48,7 @@ tabs:
             fields:
               pageSettings:
                 label: Header Einstellungen
-                type: headline             
+                type: headline
 
               headerScripts:
                 type: textarea
@@ -70,7 +70,7 @@ tabs:
                 type: structure
                 style: table
                 fields:
-                  question: 
+                  question:
                     label: Question
                     type: text
                   answer:
@@ -99,7 +99,7 @@ tabs:
                        - Ja
                        - Nein
 
-            
+
 
       - width: 1/4
         sections:

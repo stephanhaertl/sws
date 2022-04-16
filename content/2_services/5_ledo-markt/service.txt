@@ -1,0 +1,35 @@
+Title: Ledo Markt
+
+----
+
+Image:
+
+- services-3.jpeg
+
+----
+
+Text: Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
+
+----
+
+Icon: bi-easel
+
+----
+
+Metatitle: 
+
+----
+
+Metakeywords: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Excludefromxmlsitemap: false

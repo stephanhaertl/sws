@@ -12,38 +12,36 @@ tabs:
       left:
         width: 2/3
         sections:
-          # a simple form
           content:
             type: fields
             fields:
-              image:
-                type: files
-                label: Teaser
-                layout: cards
-                width: 1/3
+              headline:
+                type: text
+                label: Headline
+                width: 1/2
               text:
-                label: Text
                 type: textarea
-                width: 2/3
+                label: Text
+                width: 1/2
+          services:
+            headline: List of services
+            type: pagetable
+            status: all
+            sortable: false
+            limitOptions:
+              - 10
+              - 25
+              - 50
+            template: service
+
       # sidebar
       right:
         width: 1/3
         sections:
-        # a list of files
+          # a list of files
           files:
             headline: Dateien
             type: files
-
-          subpages:
-            headline: Unterseiten
-            type: pages
-            showStatus: true
-            showActions: true
-            limit: 25
-            create:
-              - subpage
-              - einrichtungen
-
 
   # seo tab
   seo:

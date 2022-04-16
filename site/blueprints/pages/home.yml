@@ -16,9 +16,12 @@ tabs:
           content:
             type: fields
             fields:
+              heroHeadline:
+                label: Hero - Area
+                type: headline
               image:
                 type: files
-                label: Teaser
+                label: Hero Visual
                 layout: cards
                 width: 1/3
               text:
@@ -28,18 +31,29 @@ tabs:
               buttonText:
                 label: Button Text
                 type: text
-                width: 1/3
+                width: 1/2
               buttonLink:
                 label: Button Link
                 type: text
-                width: 1/3
+                width: 1/2
+              ytText:
+                label: Video Text
+                type: text
+                width: 1/2
+              ytLink:
+                label: Video Link
+                type: text
+                width: 1/2
 
+              teaserHeadline:
+                label: Start-Teaser - Area
+                type: headline
               teaser:
                 label: Teaser
                 type: structure
                 style: table
                 fields:
-                  icon: 
+                  icon:
                     label: Icon
                     type: text
                     width: 1/3
@@ -56,6 +70,21 @@ tabs:
                     type: textarea
                     width: 2/3
 
+              ctaHeadline:
+                label: Call To Action - Area
+                type: headline
+              cta:
+                label: CTA
+                type: textarea
+              ctaButtonText:
+                label: Button Text
+                type: text
+                width: 1/2
+              ctaButtonLink:
+                label: Button Link
+                type: text
+                width: 1/2
+
 
       # sidebar
       right:
@@ -65,15 +94,6 @@ tabs:
           files:
             headline: Dateien
             type: files
-
-          subpages:
-            headline: Unterseiten
-            type: pages
-            showStatus: true
-            showActions: true
-            limit: 25
-            create:
-              - section              
 
 
   # seo tab

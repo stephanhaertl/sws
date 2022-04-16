@@ -15,7 +15,7 @@ const jsPath = 'assets/js/**/*.js';
 const cssPath = 'assets/css/**/*.css';
 const fontPath = 'assets/vendor/bootstrap-icons/fonts';
 
-var vendorCSS = [  
+var vendorCSS = [
   'assets/vendor/bootstrap/css/bootstrap.min.css',
   'assets/vendor/bootstrap-icons/bootstrap-icons.css',
   'assets/vendor/aos/aos.css',
@@ -42,6 +42,10 @@ function copyHtml() {
 
 function imgTask() {
   return src('assets/img/*').pipe(imagemin()).pipe(gulp.dest('dist/img'));
+}
+
+function imgclientTask() {
+  return src('assets/img/clients/*').pipe(imagemin()).pipe(gulp.dest('dist/img/clients'));
 }
 
 function jsVendorTask(){
@@ -94,10 +98,11 @@ function watchTask() {
 exports.cssVendorTask = cssVendorTask;
 exports.jsVendorTask = jsVendorTask;
 exports.imgTask = imgTask;
+exports.imgclientTask = imgclientTask;
 exports.fontTask = fontTask;
 exports.htmlTask = htmlTask;
 exports.copyHtml = copyHtml;
 exports.default = series(
-  parallel(imgTask, cssVendorTask, jsVendorTask, fontTask), //parallel(copyHtml, imgTask, jsTask, cssTask, htmlTask),
+  parallel(imgTask,imgclientTask, cssVendorTask, jsVendorTask, fontTask), //parallel(copyHtml, imgTask, jsTask, cssTask, htmlTask),
   //watchTask
 );

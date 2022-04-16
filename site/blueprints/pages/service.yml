@@ -20,11 +20,26 @@ tabs:
                 type: files
                 label: Teaser
                 layout: cards
+                required: true
                 width: 1/3
               text:
                 label: Text
                 type: textarea
                 width: 2/3
+              icon:
+                type: text
+                label: Icon
+                width: 1/3
+              slider:
+                type: structure
+                label: Slides
+                style: table
+                fields:
+                  image:
+                    label: Slide
+                    type: files
+                width: 2/3
+
       # sidebar
       right:
         width: 1/3

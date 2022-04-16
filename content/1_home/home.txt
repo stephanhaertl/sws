@@ -23,6 +23,14 @@ Buttonlink: /about-us
 
 ----
 
+Yttext: Watch Video
+
+----
+
+Ytlink: https://www.youtube.com/watch?v=LXb3EKWsInQ
+
+----
+
 Teaser:
 
 - 
@@ -56,6 +64,25 @@ Teaser:
 
 ----
 
+Cta:
+
+### Voluptatem dignissimos provident quasi corporis
+*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*
+
+1. Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+2. Duis aute irure dolor in reprehenderit in voluptate velit.
+3. Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+----
+
+Ctabuttontext: Read More
+
+----
+
+Ctabuttonlink: /services
+
+----
+
 Metatitle: Arbeitsprobe
 
 ----
@@ -72,4 +99,4 @@ Ogimage:
 
 ----
 
-Excludefromxmlsitemap: false
+Excludefromxmlsitemap: true

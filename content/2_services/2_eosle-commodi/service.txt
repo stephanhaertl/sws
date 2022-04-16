@@ -1,0 +1,39 @@
+Title: Eosle Commodi
+
+----
+
+Image:
+
+- services-2.jpeg
+
+----
+
+Text: Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
+
+----
+
+Icon: bi-broadcast
+
+----
+
+Slider: 
+
+----
+
+Metatitle: 
+
+----
+
+Metakeywords: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Excludefromxmlsitemap: false
