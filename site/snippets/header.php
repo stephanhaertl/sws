@@ -23,3 +23,4 @@
       <a class="btn-getstarted scrollto" href="index.html#about">Get Started</a>
     </div>
   </header><!-- End Header -->
+  <main id="main">

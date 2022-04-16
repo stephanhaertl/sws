@@ -1,0 +1,36 @@
+title: Comments
+
+options:
+  delete: false
+
+sections:
+  comments:
+    headline: List of comments
+    type: pagetable
+    status: all
+    sortable: false
+    columns:
+      title:
+        label: Title
+        text: '{{ page.title }}'
+        type: text
+        width: 2/4                
+        searchable: true
+      slug:
+        label: Slug
+        text: '{{ page.slug }}'
+        type: text
+        width: 1/4                
+        searchable: true
+      user:
+        label: User
+        text: '{{ page.user }}'
+        type: text
+        width: 1/4                
+        searchable: true
+    limitOptions:
+      - 10
+      - 25
+      - 50    
+    template: comment
+  

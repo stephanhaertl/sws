@@ -32,6 +32,7 @@ tabs:
               status: draft
               create:
                 - default
+                - notes
 
   generalsettings:
     label: Seite & Footer Einstellungen

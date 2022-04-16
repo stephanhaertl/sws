@@ -1,4 +1,7 @@
 <?= snippet('header') ?>
+<?php if($page->slug() != "home"): ?>
+  <?= snippet('breadcrumb') ?>
+<?php endif ?>
 <section id="hero-animated" class="hero-animated d-flex align-items-center">
   <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">          
           <img src="<?= $page->image()->url() ?>" class="img-fluid animated">                        
@@ -9,7 +12,7 @@
     </div>
   </div>
 </section>
-<main id="main">
+
 
 
 <!-- ======= Featured Services Section ======= -->

@@ -1,0 +1,18 @@
+title: Comment
+icon: 📢
+
+options:
+  changeTitle: true
+  changeStatus: true
+  changeSlug: true
+  
+
+fields:
+  user:
+    label: User
+    type: text
+  text:
+    label: text
+    type: textarea
+    maxlength: 600
+  

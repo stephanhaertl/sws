@@ -10,6 +10,14 @@ return [
     LC_MESSAGES => 'de_DE.utf-8',
     LC_CTYPE    => 'de_DE.utf-8'
   ],
+
+  'db' => [
+    'host'     => 'localhost',
+    'database' => 'sws',
+    'user'     => 'root',
+    'password' => 'root',
+  ],
+
   'debug' => true,
   'date.handler' => 'strftime',
     'thumbs' => [
