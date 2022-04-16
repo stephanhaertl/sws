@@ -32,7 +32,10 @@ tabs:
               status: draft
               create:
                 - default
-                - notes
+                - comments
+                - contact
+                - about
+                - services
 
   generalsettings:
     label: Seite & Footer Einstellungen
@@ -45,39 +48,34 @@ tabs:
             fields:
               pageSettings:
                 label: Header Einstellungen
-                type: headline
-              logo:
-                label: Logo
-                type: files
-                template: Default
-                layout: cards
-                template: blocks/Default
-                info: "{{ file.dimensions }}"
-                image:
-                  ratio: 16/9
-                  cover: true
-                size: large
-                required: false
-                multiple: false
-                width: 1/3
-              gaplogo:
-                type: gap
-                width: 2/3
-
-              globalEmail:
-                type: text
-                label: E-Mail (Kontaktformular)
+                type: headline             
 
               headerScripts:
                 type: textarea
                 label: Header-Scripts
 
               customerSettings:
-                label: Kontakt Einstellungen
+                label: FAQ
                 type: headline
-              contact:
-                label: Kontakt
+              faqHeadline:
+                label: FAQ Headline
+                type: text
+                width: 1/2
+              faqIntro:
+                label: FAQ Intro
                 type: textarea
+                width: 1/2
+              faq:
+                label: FAQ
+                type: structure
+                style: table
+                fields:
+                  question: 
+                    label: Question
+                    type: text
+                  answer:
+                    label: Answer
+                    type: textarea
 
               footerSettings:
                 label: Footer Einstellungen

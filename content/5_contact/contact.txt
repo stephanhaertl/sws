@@ -1,0 +1,25 @@
+Title: Contact
+
+----
+
+Image: 
+
+----
+
+Text: 
+
+----
+
+Metakeywords: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Excludefromxmlsitemap: false

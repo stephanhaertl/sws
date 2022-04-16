@@ -15,6 +15,47 @@ Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates simil
 
 ----
 
+Buttontext: About us
+
+----
+
+Buttonlink: /about-us
+
+----
+
+Teaser:
+
+- 
+  icon: bi-activity
+  headline: Lorem Ipsum
+  link: '#'
+  text: >
+    Voluptatum deleniti atque corrupti quos
+    dolores et quas molestias excepturi
+- 
+  icon: bi-bounding-box-circles
+  headline: Sed ut perspici
+  link: '#'
+  text: >
+    Duis aute irure dolor in reprehenderit
+    in voluptate velit esse cillum dolore
+- 
+  icon: bi-calendar4-week
+  headline: Magni Dolores
+  link: '#'
+  text: >
+    Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia
+- 
+  icon: bi-broadcast
+  headline: Nemo Enim
+  link: '#'
+  text: >
+    At vero eos et accusamus et iusto odio
+    dignissimos ducimus qui blanditiis
+
+----
+
 Metatitle: Arbeitsprobe
 
 ----

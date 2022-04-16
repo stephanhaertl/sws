@@ -1,4 +1,4 @@
-title: HomePage
+title: Services
 #preset: page
 
 tabs:
@@ -25,38 +25,6 @@ tabs:
                 label: Text
                 type: textarea
                 width: 2/3
-              buttonText:
-                label: Button Text
-                type: text
-                width: 1/3
-              buttonLink:
-                label: Button Link
-                type: text
-                width: 1/3
-
-              teaser:
-                label: Teaser
-                type: structure
-                style: table
-                fields:
-                  icon: 
-                    label: Icon
-                    type: text
-                    width: 1/3
-                  headline:
-                    label: Headline
-                    type: text
-                    width: 2/3
-                  link:
-                    label: Link
-                    type: text
-                    width: 1/3
-                  text:
-                    label: Text
-                    type: textarea
-                    width: 2/3
-
-
       # sidebar
       right:
         width: 1/3
@@ -73,7 +41,8 @@ tabs:
             showActions: true
             limit: 25
             create:
-              - section              
+              - subpage
+              - einrichtungen
 
 
   # seo tab

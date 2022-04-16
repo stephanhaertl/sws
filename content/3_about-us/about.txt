@@ -1,0 +1,25 @@
+Title: About Us
+
+----
+
+Image: 
+
+----
+
+Text: 
+
+----
+
+Metakeywords: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Excludefromxmlsitemap: false
