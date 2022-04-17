@@ -2,6 +2,7 @@
 1. download .zip
 2. unzip to your local webserver
 3. terminal in projectfolder
+
  *- composer install (not in this case)*
  - npm install
  - npm run gulp
